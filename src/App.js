@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 // import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import EmployeeTable from "./components/EmployeeTable";
 
 function App() {
   return (
-    <div>
-      <h1>Hello, World</h1>
-    </div>
+    <React.Fragment>
+      <EmployeeTable />
+    </React.Fragment>
   );
 }
 
