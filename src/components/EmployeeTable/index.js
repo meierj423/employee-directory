@@ -1,36 +1,16 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function EmployeeTable(props) {
   return (
     <React.Fragment>
-      <table class="table table-striped table-dark">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
+      <table className="table table-striped table-dark">
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">{props.id}</th>
+            <td>{props.firstName}</td>
+            <td>{props.lastName}</td>
+            <td>{props.email}</td>
+            <td>{props.gender}</td>
           </tr>
         </tbody>
       </table>
