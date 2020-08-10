@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import EmployeeTable from "./components/EmployeeTable";
 import employees from "./employees.json";
 import TableHeader from "./components/TableHeader";
