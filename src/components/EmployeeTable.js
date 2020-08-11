@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import EmployeeRow from "./EmployeeRow";
-import employees from "../utils/employees.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class EmployeeTable extends Component {
   state = {
-    employees,
     order: "ascending",
+    search: "",
   };
 
   handleSort = () => {
@@ -16,11 +15,12 @@ class EmployeeTable extends Component {
   };
 
   render() {
-    if (this.state.employees.length === 0) {
-      return alert("There are no employees in the directory");
+    console.log(this.props);
+    if (this.props.employees.length === 0) {
+      console.log("There are no employees in the directory");
     }
 
-    const sortedEmployees = this.state.employees.sort((a, b) => {
+    const sortedByLast = this.props.employees.sort((a, b) => {
       let aName = a.last_name;
       let bName = b.last_name;
       if (aName === bName) {
@@ -37,7 +37,7 @@ class EmployeeTable extends Component {
       }
       return -1;
     });
-
+    console.log("sortedbylast", sortedByLast)
     return (
       <div>
         <div className="table-responsive">
@@ -53,7 +53,7 @@ class EmployeeTable extends Component {
               </tr>
             </thead>
             <tbody>
-              {sortedEmployees.map((employee) => {
+              {this.props.employees.map((employee) => {
                 return (
                   <EmployeeRow
                     id={employee.id}
