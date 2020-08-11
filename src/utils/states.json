@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "state": "Alabama",
+    "nickname": "Heart of Dixie",
+    "capital": "Montgomery",
+    "largestCity": "Birmingham",
+    "population": "4,887,871"
+  },
+  {
+    "id": 2,
+    "state": "Alaska",
+    "nickname": "Last Frontier",
+    "capital": "Juneau",
+    "largestCity": "Anchorage",
+    "population": "734,438"
+  }, 
+    {
+    "id": 3,
+    "state": "Arizona",
+    "nickname": "Grand Canyon State",
+    "capital": "Phoenix",
+    "largestCity": "Phoenix",
+    "population": "7,171,646"
+  }, 
+    {
+    "id": 4,
+    "state": "Arkansas",
+    "nickname": "Natural State",
+    "capital": "Little Rock",
+    "largestCity": "Little Rock",
+    "population": "3,013,825"
+  },
+    {
+    "id": 5,
+    "state": "California",
+    "nickname": "39,557,045",
+    "capital": "Sacramento",
+    "largestCity": "Los Angeles",
+    "population": "39,557,045"
+  }, 
+    
+    {
+    "id": 6,
+    "state": "Colorado",
+    "nickname": "Centennial State",
+    "capital": "Denver",
+    "largestCity": "Denver",
+    "population": "5,695,564"
+  }, 
+    {
+    "id": 7,
+    "state": "Connecticut",
+    "nickname": "Constitution State",
+    "capital": "Hartford",
+    "largestCity": "Bridgeport",
+    "population": "3,572,665"
+  }, 
+    {
+    "id": 8,
+    "state": "Delaware",
+    "nickname": "First State",
+    "capital": "Dover",
+    "largestCity": "Wilmington",
+    "population": "967,171"
+  }, 
+    {
+    "id": 9,
+    "state": "Alabama",
+    "nickname": "Heart of Dixie",
+    "capital": "Montgomery",
+    "largestCity": "Birmingham",
+    "population": "4,887,871"
+  }]
