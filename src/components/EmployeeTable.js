@@ -15,12 +15,7 @@ class EmployeeTable extends Component {
   };
 
   render() {
-    console.log(this.props);
-    if (this.props.employees.length === 0) {
-      console.log("There are no employees in the directory");
-    }
-
-    const sortedByLast = this.props.employees.sort((a, b) => {
+    this.props.employees.sort((a, b) => {
       let aName = a.last_name;
       let bName = b.last_name;
       if (aName === bName) {
@@ -37,16 +32,16 @@ class EmployeeTable extends Component {
       }
       return -1;
     });
-    console.log("sortedbylast", sortedByLast)
+
     return (
       <div>
         <div className="table-responsive">
           <table className="table table-striped table-dark">
             <thead>
               <tr>
-                <th scope="col">First</th>
+                <th scope="col">First Name</th>
                 <th onClick={this.handleSort} scope="col">
-                  Last
+                  Last Name
                 </th>
                 <th scope="col">Email</th>
                 <th scope="col">Gender</th>

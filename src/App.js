@@ -11,13 +11,12 @@ function App() {
   useEffect(() => {
     if (!search) {
       setEmployees(employeesJSON);
-      console.log("useEffect", employees);
+
     } else {
       let employeesArray = employeesJSON.filter((employee) => {
         return employee.first_name.toLowerCase().includes(search.toLowerCase());
       });
       setEmployees(employeesArray);
-      console.log("Else statement", employees);
     }
   }, [search]);
   return (

@@ -1,3 +1,47 @@
+# Employee Directory
+
+  [![Badge](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
+
+## Description 
+
+This is an Employee Directory React App. Given employee JSON data, a table is generated including the employee's first and last name, email, and gender. The user may filter the first name's of the employees by entering text in the input box. The user may also sort the employees alphabetically by last name by clicking on "Last Name."
+
+Bootstrap was used for styling the application.
+
+See the URL for the deployed application: https://meierj423.github.io/employee-directory/
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+
+## Installation
+
+- Run ```npm install``` in the command-line to install all of the dependencies required for the application
+
+## Usage 
+
+Use this application anytime you want to find information for an employee(s)
+
+See the screenshots below of the running application:
+
+![](public/assets/images/screenshot1.png)
+![](public/assets/images/screenshot2.png)
+
+## License
+
+This application is covered under the MIT license.
+
+## Questions
+
+For any additional questions, please contact me:
+
+------------------------------------------
+## Jack Meier
+#### GitHub: https://github.com/meierj423
+#### E-mail: jackson.meier423@gmail.com
+------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
